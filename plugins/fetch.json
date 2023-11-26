@@ -1,0 +1,82 @@
+{
+  "cordova-plugin-androidx-adapter": {
+    "source": {
+      "type": "local",
+      "path": "/srv/appery/jenkins/workspace/dd7fa204-bb25-4262-a966-d5a804123af8-android/app/node_modules/cordova-plugin-androidx-adapter"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-resource-generator": {
+    "source": {
+      "type": "local",
+      "path": "/srv/appery/jenkins/workspace/dd7fa204-bb25-4262-a966-d5a804123af8-android/app/node_modules/cordova-plugin-resource-generator"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-webview@^5.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@2.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@6.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.4.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-keyboard": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-keyboard@^2.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-network-information@^2.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-secure-storage-echo": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-secure-storage-echo@5.1.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-sqlite-ext": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-sqlite-ext"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-resource-generator": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-secure-storage-echo": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-sqlite-ext": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    }
+  },
+  "dependent_plugins": {}
+}

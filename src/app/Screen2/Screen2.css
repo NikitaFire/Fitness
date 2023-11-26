@@ -1,0 +1,49 @@
+
+/* Styles properties */
+h3[_aio-2E182EEA] {
+	text-align: center;
+	border-style: solid;
+	border-color: #999999;
+}
+ion-grid[_aio-9C9A118D] {
+	background-color: #cccccc;
+	border-style: solid;
+}
+ion-col[_aio-3F9A8394] {
+	border-color: #000000;
+}
+h5[_aio-EB97A06C] {
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: normal;
+	border-style: solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+ion-grid[_aio-763DDF32] {
+	background-color: #cccccc;
+	border-style: solid;
+}
+h5[_aio-C622D991] {
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	border-style: solid;
+}
+ion-grid[_aio-395594EF] {
+	background-color: #cccccc;
+	border-style: solid;
+}
+div[_aio-B9272355] {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	border-style: solid;
+}
+ion-button[_aio-CF0034EC]::part(native) {
+	border-color: #000000;
+	color: #000000;
+}

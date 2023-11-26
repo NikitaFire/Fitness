@@ -1,0 +1,22 @@
+
+/* Styles properties */
+ion-content[_aio-FF780659] {
+	background: #666666;
+	--background: #666666;
+}
+img[_aio-7F64E2B3] {
+	position: sticky;
+}
+div[_aio-00CC4B43] {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 5em;
+	color: #ffffff;
+}
+ion-button[_aio-081D2DBC]::part(native) {
+	color: #ffffff;
+	background-color: #3d85c6;
+	border-color: #3d85c6;
+}

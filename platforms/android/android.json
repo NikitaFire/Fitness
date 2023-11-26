@@ -1,0 +1,264 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "AndroidManifest.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.RECEIVE_SMS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_CONTACTS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+              "count": 4
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"com.android.browser.permission.READ_HISTORY_BOOKMARKS\" />",
+              "count": 3
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<allow-navigation href=\"http://localhost/*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"https://localhost/*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"ionic://*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"webView\" value=\"com.ionicframework.cordova.webview.IonicWebViewEngine\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicWebView\"><param name=\"android-package\" value=\"com.ionicframework.cordova.webview.IonicWebView\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"CDVIonicKeyboard\"><param name=\"android-package\" onload=\"true\" value=\"io.ionic.keyboard.CDVIonicKeyboard\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SecureStorage\"><param name=\"android-package\" value=\"com.crypho.plugins.SecureStorage\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SQLitePlugin\"><param name=\"android-package\" value=\"io.sqlc.SQLitePlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-resource-generator": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-plugin-secure-storage-echo": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    },
+    "cordova-sqlite-ext": {
+      "PACKAGE_NAME": "io.appery.project787627"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-ionic-webview.IonicWebView",
+      "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+      "pluginId": "cordova-plugin-ionic-webview",
+      "clobbers": [
+        "Ionic.WebView"
+      ]
+    },
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-statusbar.statusbar",
+      "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+      "pluginId": "cordova-plugin-statusbar",
+      "clobbers": [
+        "window.StatusBar"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-keyboard.keyboard",
+      "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+      "pluginId": "cordova-plugin-ionic-keyboard",
+      "clobbers": [
+        "window.Keyboard"
+      ]
+    },
+    {
+      "id": "cordova-plugin-network-information.network",
+      "file": "plugins/cordova-plugin-network-information/www/network.js",
+      "pluginId": "cordova-plugin-network-information",
+      "clobbers": [
+        "navigator.connection",
+        "navigator.network.connection"
+      ]
+    },
+    {
+      "id": "cordova-plugin-network-information.Connection",
+      "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+      "pluginId": "cordova-plugin-network-information",
+      "clobbers": [
+        "Connection"
+      ]
+    },
+    {
+      "id": "cordova-plugin-secure-storage-echo.SecureStorage",
+      "file": "plugins/cordova-plugin-secure-storage-echo/www/securestorage.js",
+      "pluginId": "cordova-plugin-secure-storage-echo",
+      "clobbers": [
+        "SecureStorage"
+      ]
+    },
+    {
+      "id": "cordova-sqlite-ext.SQLitePlugin",
+      "file": "plugins/cordova-sqlite-ext/www/SQLitePlugin.js",
+      "pluginId": "cordova-sqlite-ext",
+      "clobbers": [
+        "SQLitePlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-androidx-adapter": "1.1.3",
+    "cordova-plugin-resource-generator": "0.1.0",
+    "cordova-plugin-ionic-webview": "5.0.0",
+    "cordova-plugin-device": "2.1.0",
+    "cordova-plugin-splashscreen": "6.0.1",
+    "cordova-plugin-statusbar": "2.4.3",
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "cordova-plugin-network-information": "2.0.2",
+    "cordova-plugin-secure-storage-echo": "5.1.1",
+    "cordova-sqlite-ext": "6.0.0"
+  }
+}
